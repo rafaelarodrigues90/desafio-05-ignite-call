@@ -7,9 +7,9 @@ import {
 } from "./styles";
 import Vector from "../../assets/Vector.png";
 
-interface TooltipProps {
+export interface TooltipProps {
   children?: ReactNode;
-  text?: string;
+  text: string;
 }
 
 export function TooltipComponent({ text, children }: TooltipProps) {

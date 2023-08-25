@@ -9,6 +9,7 @@ export const TooltipBox = styled("div", {
   lineHeight: "44px",
   borderRadius: "5px",
   cursor: "pointer",
+  fontFamily: "$default",
 });
 
 export const TooltipCard = styled("div", {

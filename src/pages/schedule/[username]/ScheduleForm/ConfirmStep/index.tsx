@@ -46,6 +46,9 @@ export function ConfirmStep({
       date: schedulingDate,
     })
 
+    const formattedDate = schedulingDate.toISOString();
+    router.push(`/schedule/${username}?scheduledDate=${formattedDate}`)
+
     onCancelConfirmation()
   }
 
